@@ -15,8 +15,8 @@ Support Console (CRM service-ticket resolution and escalation). This scenario is
 ## Package layout and continuous training
 
 The Train and Test packages each display five flat Cases, with a `task_config.toml`,
-`statement/README.md` and `rubric/README.md` for each question. Each package uses its matching
-`data/<benchmark-id>/` directory; task data is not copied into the package.
+`statement/README.md` and `rubric/README.md` for each question. The task files for each package live under
+`<benchmark-id>/` at the root of this data repository.
 
 **The five Train Cases form one training run. Launch `tasks/train_tasks/` once,
 with one Agent Session and one container for all five questions.** Do not schedule
