@@ -5,7 +5,9 @@
 # Run from the repository root, with the model configured in this machine's PenguinHarness
 # (the adapter copies that one model entry into each task container; see README.md):
 #   export PYTHONPATH="$ADAPTER_DIR"  # see the data repository README
-#   uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-gdpevo-essential-coverage-review-test/job.yaml --job-name penguinharness-benchmark-gdpevo-essential-coverage-review-test-attempt-1 -y
+#   uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-gdpevo-essential-coverage-review-test/job.yaml \
+#     --ak "agent_state_tar=${STATE_TAR:?set STATE_TAR to the frozen Agent State archive}" \
+#     --job-name penguinharness-benchmark-gdpevo-essential-coverage-review-test-attempt-1 -y
 # The agent phase of every GDPevo task is no-network; extra_allowed_hosts lets the agent
 # reach its model provider through Harbor's egress sidecar. Use another provider's API host
 # here when you run another model. Never add agents/shared-network.yaml: it would

@@ -30,8 +30,17 @@ export PYTHONPATH="$ADAPTER_DIR"
 ```
 
 Reuse that checkout for other datasets pinned to the same adapter commit, setting
-`ADAPTER_DIR` to its absolute `agents/` directory. Run the package's `job.yaml`
-from the data repository root for a batch, or use the Case command for one trial.
+`ADAPTER_DIR` to its absolute `agents/` directory. Run the Case command for
+one trial. For a Test batch, set `STATE_TAR` to the absolute path of the
+Agent State frozen after training the same scenario. For example, from the
+data repository root, run all five Service Ticket Resolution test questions as follows.
+
+```bash
+uvx --from harbor==0.23.0 harbor run \
+  -c data/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test/job.yaml \
+  --ak "agent_state_tar=${STATE_TAR:?set STATE_TAR to the frozen Agent State archive}" -y
+```
+
 Use the model, time limits and network settings in the Case. The default host
 limit is four concurrent trials. Apply the shared Docker network only when the
 Case asks for it. For a network-restricted agent, `"$ADAPTER_DIR/agent_host.py"`
