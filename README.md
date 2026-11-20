@@ -2,18 +2,18 @@
 
 Task data, environments and verifiers for the following PenguinHarness packages.
 
-- [gdpevo-essential-court-clerk-operations-test](data/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test)
-- [gdpevo-essential-court-clerk-operations-train](data/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train)
-- [gdpevo-essential-coverage-review-test](data/penguinharness-benchmark-gdpevo-essential-coverage-review-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-coverage-review-test)
-- [gdpevo-essential-coverage-review-train](data/penguinharness-benchmark-gdpevo-essential-coverage-review-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-coverage-review-train)
-- [gdpevo-essential-engineering-portfolio-analytics-test](data/penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test)
-- [gdpevo-essential-engineering-portfolio-analytics-train](data/penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-train)
-- [gdpevo-essential-financial-control-test](data/penguinharness-benchmark-gdpevo-essential-financial-control-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-financial-control-test)
-- [gdpevo-essential-financial-control-train](data/penguinharness-benchmark-gdpevo-essential-financial-control-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-financial-control-train)
-- [gdpevo-essential-portfolio-management-test](data/penguinharness-benchmark-gdpevo-essential-portfolio-management-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-portfolio-management-test)
-- [gdpevo-essential-portfolio-management-train](data/penguinharness-benchmark-gdpevo-essential-portfolio-management-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-portfolio-management-train)
-- [gdpevo-essential-service-ticket-resolution-test](data/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test)
-- [gdpevo-essential-service-ticket-resolution-train](data/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-train)
+- [gdpevo-essential-court-clerk-operations-test](penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test)
+- [gdpevo-essential-court-clerk-operations-train](penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train)
+- [gdpevo-essential-coverage-review-test](penguinharness-benchmark-gdpevo-essential-coverage-review-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-coverage-review-test)
+- [gdpevo-essential-coverage-review-train](penguinharness-benchmark-gdpevo-essential-coverage-review-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-coverage-review-train)
+- [gdpevo-essential-engineering-portfolio-analytics-test](penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test)
+- [gdpevo-essential-engineering-portfolio-analytics-train](penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-train)
+- [gdpevo-essential-financial-control-test](penguinharness-benchmark-gdpevo-essential-financial-control-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-financial-control-test)
+- [gdpevo-essential-financial-control-train](penguinharness-benchmark-gdpevo-essential-financial-control-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-financial-control-train)
+- [gdpevo-essential-portfolio-management-test](penguinharness-benchmark-gdpevo-essential-portfolio-management-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-portfolio-management-test)
+- [gdpevo-essential-portfolio-management-train](penguinharness-benchmark-gdpevo-essential-portfolio-management-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-portfolio-management-train)
+- [gdpevo-essential-service-ticket-resolution-test](penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test)
+- [gdpevo-essential-service-ticket-resolution-train](penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-train/README.md) · [package](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-train)
 
 ## Running a task (for agents)
 
@@ -37,7 +37,7 @@ data repository root, run all five Service Ticket Resolution test questions as f
 
 ```bash
 uvx --from harbor==0.23.0 harbor run \
-  -c data/penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test/job.yaml \
+  -c penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test/job.yaml \
   --ak "agent_state_tar=${STATE_TAR:?set STATE_TAR to the frozen Agent State archive}" -y
 ```
 

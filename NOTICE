@@ -5,9 +5,9 @@ See LICENSE and each dataset's SOURCE.md for provenance and terms.
 See THIRD_PARTY_NOTICES.md for the source attribution.
 
 GDPevo
-  data/penguinharness-benchmark-gdpevo-essential-*/
+  penguinharness-benchmark-gdpevo-essential-*/
   https://github.com/Prism-Shadow/GDPevo (commit 56d60ae)
   Licensed under the Apache License, Version 2.0; the full text is kept at
-  data/penguinharness-benchmark-gdpevo-essential-*/LICENSE.
-  The tasks in data/penguinharness-benchmark-gdpevo-essential-*/tasks/ retain the
+  penguinharness-benchmark-gdpevo-essential-*/LICENSE.
+  The tasks in penguinharness-benchmark-gdpevo-essential-*/tasks/ retain the
   selected task inputs, environment, graders and gold answers from the pinned source.
