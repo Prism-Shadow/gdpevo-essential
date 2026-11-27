@@ -17,21 +17,15 @@ Task data, environments and verifiers for the following PenguinHarness packages.
 
 ## Running a task (for agents)
 
-Check out this data repository at the full commit in the Case statement. From its
-root, run the statement's Harbor command with the [shared Penguin adapter](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/8a507af0329fed8f9a1baf44d1364b438340c78a/agents).
-To prepare the adapter once for all datasets, use an empty directory:
+Run the Case's Harbor command from the root of the data checkout specified in
+its statement. The examples use `ADAPTER_DIR` for the adapter directory
+provided by the evaluator.
 
 ```bash
-git clone --filter=blob:none --sparse --no-checkout https://github.com/Prism-Shadow/penguin-harness-benchmark.git ../penguin-benchmark-adapter
-git -C ../penguin-benchmark-adapter sparse-checkout set agents
-git -C ../penguin-benchmark-adapter checkout --detach 8a507af0329fed8f9a1baf44d1364b438340c78a
-export ADAPTER_DIR="$(git -C ../penguin-benchmark-adapter rev-parse --show-toplevel)/agents"
 export PYTHONPATH="$ADAPTER_DIR"
 ```
 
-Reuse that checkout for other datasets pinned to the same adapter commit, setting
-`ADAPTER_DIR` to its absolute `agents/` directory. Run the Case command for
-one trial. For a Test batch, set `STATE_TAR` to the absolute path of the
+For a Test batch, set `STATE_TAR` to the absolute path of the
 Agent State frozen after training the same scenario. For example, from the
 data repository root, run all five Service Ticket Resolution test questions as follows.
 
@@ -44,8 +38,7 @@ uvx --from harbor==0.23.0 harbor run \
 Use the model, time limits and network settings in the Case. The default host
 limit is four concurrent trials. Apply the shared Docker network only when the
 Case asks for it. For a network-restricted agent, `"$ADAPTER_DIR/agent_host.py"`
-resolves the model's host from the configured Project. The adapter options are
-in its [README](https://github.com/Prism-Shadow/penguin-harness-benchmark/blob/8a507af0329fed8f9a1baf44d1364b438340c78a/agents/README.md).
+resolves the model's host from the configured Project.
 
 Harbor writes the trial's `result.json` under the job output directory. Score
 the verifier's reward as the Case rubric specifies. If the verifier produced no
